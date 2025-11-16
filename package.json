@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "engines": {
-    "node": "16.13.2"
+    "node": "18.x"
   },
   "scripts": {
     "start": "npm start"
@@ -13,11 +13,11 @@
   "author": "l",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.19.1",
+    "body-parser": "^1.20.2",
     "express": "latest",
-    "multer": "^1.4.4",
+    "multer": "^1.4.5-lts.1",
     "node-telegram-bot-api": "latest",
-    "uuid": "^8.3.2",
+    "uuid": "^9.0.1",
     "ws": "latest",
     "axios": "^0.26.1"
   }
